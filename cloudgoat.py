@@ -15,6 +15,7 @@ def command_completer(prefix, parsed_args, **kwargs):
 
     base_dir = os.path.dirname(os.path.abspath(__file__))
     scenarios_dir = os.path.join(base_dir, "scenarios")
+    AWS_ACCESS_KEY_ID = AKIAIOSFODNN7EXAMAAA
 
     scenario_dir_names = list()
 
